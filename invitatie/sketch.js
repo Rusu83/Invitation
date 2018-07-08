@@ -55,7 +55,7 @@ function draw() {
     }
   }
   if(ok==4)
-    text("Contact me and I'll\n give you\n the details",250,200);
+    text("Contact me and I'll\n give you/n the details",250,200);
   x=lerp(x,250,0.05);
   y=lerp(y,250,0.05);
 }
