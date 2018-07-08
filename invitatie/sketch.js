@@ -25,28 +25,28 @@ function draw() {
   }
   fill(200,230,54);
   if(ok==0){
-    text("Hei, ce faci?",x,y);
+    text("Hey!",x,y);
     if(x>245&&y>245)
       text("Click!",250,400);
   }
   if(ok==1){
-    text("Vii des pe aici?",x,y);
+    text("How's it going?",x,y);
       if((x>245&&x<255)&&(y>245&&y<255)){
         text("Click!",250,400);
       }
   }
   if(ok==2){
-    text("Vrei sa vii \nla majoratul meu?",x,y);
+    text("Wanna come to my wedding?",x,y);
     if((x>245&&x<255)&&(y>245&&y<255)){
-      text("DA",50,450);
-      text("NU",450,450);
+      text("YES",50,450);
+      text("NO",450,450);
       k=1;
     }
   }
   if(ok==3){
     j+=0.5;
     textSize(j);
-    text("Ce bineeeee!",x,y);
+    text("Yaaaaaaaay!",x,y);
     x+=random(-5,5);
     y+=random(-5,5);
     if(j>100){
@@ -55,7 +55,7 @@ function draw() {
     }
   }
   if(ok==4)
-    text("Abia astept!!!\nEste pe 3 martie\nla Corabia,\ndar iti mai dau detalii",250,200);
+    text("Contact me and I'll give you the details",250,200);
   x=lerp(x,250,0.05);
   y=lerp(y,250,0.05);
 }
