@@ -36,9 +36,9 @@ function draw() {
       }
   }
   if(ok==2){
-    text("Wanna come to my wedding?",x,y);
+    text("Wanna come \n to my wedding?",x,y);
     if((x>245&&x<255)&&(y>245&&y<255)){
-      text("YES",50,450);
+      text(" YES",50,450);
       text("NO",450,450);
       k=1;
     }
@@ -55,7 +55,7 @@ function draw() {
     }
   }
   if(ok==4)
-    text("Contact me and I'll give you the details",250,200);
+    text("Contact me and I'll\n give you\n the details",250,200);
   x=lerp(x,250,0.05);
   y=lerp(y,250,0.05);
 }
